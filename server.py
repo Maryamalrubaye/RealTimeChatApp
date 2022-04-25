@@ -42,7 +42,8 @@ def client_handler(client):
             break
         else:
             print("Client username is empty!")
-    threading.Thread(target=listen_for_messages, args=(client, username, )).start()
+    threading.Thread(target=listen_for_messages, args=(client, username,)).start()
+
 
 # main function
 def main():
