@@ -3,7 +3,7 @@ import socket
 import threading
 
 HOST = '127.0.0.1'
-PORT = 12344
+PORT = 1239
 
 
 # Function to listen to messages from server and show it to the client
